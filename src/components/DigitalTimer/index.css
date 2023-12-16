@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+  padding: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 768px) {
+  .card {
+    height: 300px;
+    width: 400px;
+  }
+}
+.heading {
+  color: #0f172a;
+  font-weight: bold;
+}
+.timer-display {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: white;
+  color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  color: #00d9f5;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .timer-display {
+    height: 50px;
+    width: 50px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .timer {
+    font-size: 10px;
+  }
+}
+.fi {
+  margin: 0;
+}
+.par1 {
+  font-weight: bold;
+  font-size: 15px;
+  color: #1e293b;
+}
+button {
+  cursor: pointer;
+}
+.start-button {
+  background-color: transparent;
+  border-width: 0;
+  display: flex;
+  align-items: center;
+}
+.image {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+.plus-button {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: transparent;
+  border-width: 0;
+}
+.displayText {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  color: #0f172a;
+  font-weight: bold;
+  text-align: center;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  height: 40px;
+  width: 80px;
+}
+.flexi {
+  width: 90%;
+}
+@media (min-width: 768px) {
+  .flexi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.flexi1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
